@@ -1,4 +1,4 @@
-package week6.problem3;
+package greatlearning.factorypattern;
 
 @FunctionalInterface
 public interface ExchangeRateService {

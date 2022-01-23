@@ -1,4 +1,4 @@
-package week6.problem1;
+package greatlearning.singleton;
 
 import java.io.Serializable;
 import java.sql.Connection;
@@ -35,7 +35,7 @@ public class JDBCConnection implements Serializable {
                 if (connection == null) {
                     try {
                         Class.forName("com.mysql.cj.jdbc.Driver");
-                        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "Minimum!1783");
+                        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
                         dbcounter++;
                         System.out.println(dbcounter + " db connection object is " + connection);
                     } catch (SQLException | ClassNotFoundException e) {

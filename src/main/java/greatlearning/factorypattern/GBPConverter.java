@@ -1,11 +1,11 @@
-package week6.problem3;
+package greatlearning.factorypattern;
 
-public class USDConverter extends ConvertorApiImpl {
+public class GBPConverter extends ConvertorApiImpl {
 
     @Override
     public double convertToINR(double amount) {
         try {
-            amount = amount * exchangeRateService.getExchangeRate(Currency.DOLLAR);
+            amount = amount * exchangeRateService.getExchangeRate(Currency.GBP);
         } catch (CurrencyNotSupportException e) {
             e.printStackTrace();
         }

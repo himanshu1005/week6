@@ -1,4 +1,4 @@
-package week6.problem3;
+package greatlearning.factorypattern;
 
 /**
  * This is the factory design pattern

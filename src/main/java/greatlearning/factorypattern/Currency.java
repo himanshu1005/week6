@@ -1,4 +1,4 @@
-package week6.problem3;
+package greatlearning.factorypattern;
 
 public enum Currency {
     DOLLAR,

@@ -1,4 +1,4 @@
-package week6.problem2;
+package greatlearning.builderpattern;
 
 public enum AccountType {
     SAVING,

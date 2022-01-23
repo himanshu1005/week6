@@ -1,4 +1,4 @@
-package week6.problem1;
+package greatlearning.singleton;
 
 import java.sql.Connection;
 import java.sql.SQLException;
